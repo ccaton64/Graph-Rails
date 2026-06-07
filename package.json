@@ -1,0 +1,23 @@
+{
+  "name": "graph-rails",
+  "version": "1.0.0",
+  "description": "Graph Rails - Educational math game for graphing functions",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "mathjs": "^13.0.0",
+    "phaser": "^3.88.2",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
